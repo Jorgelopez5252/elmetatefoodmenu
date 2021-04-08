@@ -8,6 +8,28 @@
 
 /* Home page */
 
-#homepic {
-    border: red;
+#hp {
+    border: 1px solid rgb(9, 252, 9);
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
 }
+
+#foodpic{
+    
+    width: 200px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
