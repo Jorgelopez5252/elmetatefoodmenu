@@ -1,2 +1,0 @@
-# elmetatefoodmenu
-Food menu
