@@ -9,7 +9,7 @@
   
   /* Style the header */
   header {
-    background-color: rgb(241, 52, 52);
+    background-color: rgb(75, 175, 8);
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -21,7 +21,7 @@
     float: left;
     width: 30%;
     height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+    background: rgb(255, 239, 16);
     padding: 20px;
   }
   
@@ -35,8 +35,8 @@
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+    background-color: #ff3737;
+    /* height: 300px; only for demonstration, should be removed */
   }
   
   /* Clear floats after the columns */
@@ -71,7 +71,7 @@
   
   td,
   th {
-    border: 1px solid rgb(241, 52, 52);
+    border: 1px solid rgb(255, 251, 20);
     text-align: left;
     padding: 8px;
   }
