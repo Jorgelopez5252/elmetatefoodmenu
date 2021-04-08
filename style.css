@@ -1,5 +1,13 @@
+/* Combo page */
+
 #combo {
     background-color: black;
     border-style: solid;
     border-color: red;
+}
+
+/* Home page */
+
+#homepic {
+    border: red;
 }
