@@ -1,93 +1,198 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>El Metate Mexican Food</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
-    />
-  </head>
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <!-- <a class="navbar-item" href="https://bulma.io"> -->
-        <img src="/images/ElMetateLogo.JPG" width="130" />
-        <!-- </a> -->
 
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El Metate Mexican Food</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+</head>
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item"> Home </a>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <!-- <a class="navbar-item" href="https://bulma.io"> -->
+      <img src="/images/ElMetateLogo.JPG" width="130" />
+      <!-- </a> -->
 
-          <a class="navbar-item" href="contactus.html"> Contact </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> Menu </a>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html"> Home </a>
 
-            <div class="navbar-dropdown">
-              <a href="combos.html" class="navbar-item"> Combination plates </a>
-              <a href="burritos.html" class="navbar-item"> Burritos </a>
-              <a href="tacosTostadas.html" class="navbar-item">
-                Tacos & Tostadas
-              </a>
-              <a href="enchiladas.html" class="navbar-item">Enchiladas</a>
-              <a href="breakfast.html" class="navbar-item"> Breakfast </a>
-              <hr class="navbar-divider" />
-              <a href="sideOrders.html" class="navbar-item"> Side orders </a>
-            </div>
+        <a class="navbar-item" href="contactus.html"> Contact </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> Menu </a>
+
+          <div class="navbar-dropdown">
+            <a href="combos.html" class="navbar-item"> Combination plates </a>
+            <a href="burritos.html" class="navbar-item"> Burritos </a>
+            <a href="tacosTostadas.html" class="navbar-item">
+              Tacos & Tostadas
+            </a>
+            <a href="enchiladas.html" class="navbar-item">Enchiladas</a>
+            <a href="breakfast.html" class="navbar-item"> Breakfast </a>
+            <hr class="navbar-divider" />
+            <a href="sideOrders.html" class="navbar-item"> Side orders </a>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section class="section">
-      <div class="container">
-        <section class="hero is-success">
-          <div class="hero-body">
-            <p class="title">Burritos</p>
-          </div>
-        </section>
-        <!-- Navbar////////////////// -->
+  <section class="section">
+    <div class="container">
+      <section class="hero is-success">
+        <div class="hero-body">
+          <p class="title">Burritos</p>
+        </div>
+      </section>
+      <!-- Navbar////////////////// -->
 
 
-          <div class="column">
-            <h1 class="title is-1">Fresh ingredients</h1>
-            <p>
-              Our doors first opened 25 years ago and since then we have
-              provided only the best for our local community. We use fresh
-              ingredients, hard work, and secret family recipes to keep our
-              folks coming back for more.
-            </p>
-            <br />
-            <p>
-              Come try our famous Carne Asada Burrito, or one of our newly added
-              items like the Breaded shrimp either way we always strive to keep
-              the classics while also introducing new items on the Menu. Let us
-              be your new food addiction, we hope to see you soon!
-            </p>
-            
-          </div>
+      <div class="column">
+        <h1 class="title is-1">Fresh Ingredients</h1>
+        <p>
+          Our doors first opened 25 years ago and since then we have
+          provided only the best for our local community. We use fresh
+          ingredients, hard work, and secret family recipes to keep our
+          folks coming back for more.
+        </p>
+        <br />
+        <p>
+          Come try our famous Carne Asada Burrito, or one of our newly added
+          items like the Breaded shrimp either way we always strive to keep
+          the classics while also introducing new items on the Menu. Let us
+          be your new food addiction, we hope to see you soon!
+        </p>
+        <br>
+
+        <!-- ---------Table------------ -->
+        <div class="column">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Burritos</th>
+                <th>Price</th>
+                <th>Ingredients</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>Carne Asada</td>
+                <td>$7.89</td>
+                <td>Guacamole with Pico de gallo</td>
+              </tr>
+              <tr>
+                <td>California</td>
+                <td>$7.89</td>
+                <td>Grilled Pico de gallo, Cheese, French Fries</td>
+              </tr>
+              <tr>
+                <td>Machaca</td>
+                <td>$6.49</td>
+                <td>Shredded Beef with Bell Peppers, Onions cooked with Egg, Cheese</td>
+              </tr>
+              <tr>
+                <td>Mixed Burro</td>
+                <td>$6.49</td>
+                <td>Shredded Beef with Bell Peppers, Onions with Refried beans</td>
+              </tr>
+              <tr>
+                <td>Beef</td>
+                <td>S6.49</td>
+                <td>Shredded Beef with Bell Peppers and Onionss</td>
+              </tr>
+              <tr>
+                <td>Chicken</td>
+                <td>$6.49</td>
+                <td>Chicken with Bell Peppers and Onions</td>
+              </tr>
+              <tr>
+                <td>Bean Burro</td>
+                <td>$3.89</td>
+                <td>Refried Beans</td>
+              </tr>
+              <tr>
+                <td>Fish</td>
+                <td>$6.59</td>
+                <td>Breaded tilapia with cabbage , Pico de gallo and tarter sauce</td>
+              </tr>
+              <tr>
+                <td>Carnitas</td>
+                <td>$6.39</td>
+                <td>Shredded Pork with Guacamole and Pico de gallo</td>
+              </tr>
+              <tr>
+                <td>Chimichanga</td>
+                <td>$7.55</td>
+                <td>Choice of Beef/Chicken burro, deep fried with beans and cheese inside with Guac and sour cream on
+                  top. </td>
+              </tr>
+              <tr>
+                <td>Chile Relleno</td>
+                <td>$7.05</td>
+                <td>One whole Chile rellano, enchilada sauce with rice and beans</td>
+              </tr>
+              <tr>
+                <td>Adobada</td>
+                <td>$7.39</td>
+                <td>Marinated pork with Pico de gallo and Guacamole</td>
+              </tr>
+              <tr>
+                <td>Green Chile</td>
+                <td>$7.49</td>
+                <td>Porked cooked in Green Chili Salsa</td>
+              </tr>
+              <tr>
+                <td>Red Chili</td>
+                <td>$7.49</td>
+                <td>Porked cooked in Red Chili Salsa</td>
+              </tr>
+              <tr>
+                <td>Shrimp</td>
+                <td>$8.39</td>
+                <td>Grilled Shrimp with Pico de gallo and rice</td>
+              </tr>
+              <tr>
+                <td>Cabeza</td>
+                <td>$7.49</td>
+                <td>Served with Cilantro and Onion</td>
+              </tr>
+              <tr>
+                <td>Pollo Asada</td>
+                <td>$7.05</td>
+                <td>Grilled Chicken, Guacamole and Pico de gallo</td>
+              </tr>
+            </tbody>
+          </table>
+
+
         </div>
 
-        <!-- parallax -->
       </div>
-    </section>
+    </div>
 
-    <script type="text/javascript" src="/script.js"></script>
-  </body>
+
+    </div>
+  </section>
+
+  <script type="text/javascript" src="/script.js"></script>
+</body>
+
 </html>
