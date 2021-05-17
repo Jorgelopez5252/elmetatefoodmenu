@@ -36,8 +36,8 @@
 
   /* Navbar */
   .navbar-logo {
-    /* background: url(https://github.com/Jorgelopez5252/elmetatefoodmenu/blob/main/images/ElMetateLogosmalls.JPG?raw=true) no-repeat center center; */
-    /* background-size: cover; */
-    width:50px
-    
+    background: url(https://github.com/Jorgelopez5252/elmetatefoodmenu/blob/main/images/ElMetateLogosmalls.JPG?raw=true) no-repeat center center;
+    background-size: cover;
+    border-color: rgb(9, 252, 9);
+    width:73px;
   }
