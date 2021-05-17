@@ -33,3 +33,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* Navbar */
+  .navbar-logo {
+    /* background: url(https://github.com/Jorgelopez5252/elmetatefoodmenu/blob/main/images/ElMetateLogosmalls.JPG?raw=true) no-repeat center center; */
+    /* background-size: cover; */
+    width: 100
+    
+  }
