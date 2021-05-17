@@ -1,0 +1,23 @@
+{
+  "name": "elmetatefoodmenu",
+  "version": "1.0.0",
+  "description": "Interactive Food menu",
+  "main": "script.js",
+  "dependencies": {
+    "bulma": "^0.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorgelopez5252/elmetatefoodmenu.git"
+  },
+  "author": "Jorge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorgelopez5252/elmetatefoodmenu/issues"
+  },
+  "homepage": "https://github.com/Jorgelopez5252/elmetatefoodmenu#readme"
+}
