@@ -43,6 +43,9 @@
     width:65px;
   }
 
+  .navbar-burger {
+    background-color: silver;
+  }
   /* Fonts */
   p, h1 {
     font-family: 'Pattaya', sans-serif;
