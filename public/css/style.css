@@ -1,18 +1,13 @@
 /* Combo page */
 
+html {
+  background-color: #fafafa;
+}
+
 #combo {
     background-color: black;
     border-style: solid;
     border-color: red;
-}
-
-/* Home page */
-
-#hp {
-  border: 1px solid rgb(9, 252, 9);
-  border-radius: 4px;
-  padding: 5px;
-  width: 500px;
 }
 
 #foodpic{
@@ -51,16 +46,3 @@
     font-family: 'Pattaya', sans-serif;
   }
 
-
-  /* Index page polaroid images */
-  /* div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
-  
-  div.container {
-    text-align: center;
-    padding: 10px 20px;
-  } */
